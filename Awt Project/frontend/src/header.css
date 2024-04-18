@@ -1,0 +1,18 @@
+
+  
+nav{
+    position: relative;
+    z-index: 1;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    margin-top: 20px;
+    
+}
+link{
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}

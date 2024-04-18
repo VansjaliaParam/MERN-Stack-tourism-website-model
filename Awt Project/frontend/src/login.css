@@ -1,0 +1,86 @@
+div.parent-login{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    font-family: Arial, sans-serif;
+    background-image: url(./login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: #333; 
+}
+
+div.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    margin-top: 20px;
+    padding: 0;
+}
+a{
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+div.form-login{
+    position: absolute;
+    top: 39%;
+    left: 34.5%;
+    height: 50%;
+    width: 30%;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+form.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+label.login{
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+label.login2{
+margin-bottom: 5px;
+color: #333;
+}
+
+label.login3{
+    margin-bottom: 10px;
+    color: #333;
+}
+input.textbox{
+    border: 1px solid #ccc;
+    height: 40px;width: 300px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+input.chkbox-login{
+    margin-right: 10px;
+}
+
+button.login{
+    background-color: #333;
+    border-radius: 5px;
+    color: #fff;
+    border: none; 
+    padding: 10px;
+    cursor: pointer;
+}

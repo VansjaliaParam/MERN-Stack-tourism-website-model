@@ -1,0 +1,36 @@
+
+.image-slider-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+
+.image-slider-container {
+  position: relative;
+}
+
+.slider-item {
+  position: relative;
+}
+
+.slider-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.slider-text h1 {
+  font-family: Helvetica;
+  font-size: 1000px;
+  color: white;
+  margin: 0;
+}

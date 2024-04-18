@@ -1,0 +1,177 @@
+div.parent-booknow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    font-family: Arial, sans-serif;
+    background-image: url(./booknow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.form-booknow{
+    position: absolute;
+    top: 27.5%;
+    left: 18%;
+    height: 70%;
+    width: 62%;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+form.vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+form.vertical2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+form.horizontal1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+form.horizontal2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+label{
+    margin-bottom: 20px;
+    text-align: left;   
+}
+input.textbox{
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+input.number{
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 70px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+input.date{
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
+.link{
+    background-color: #333;
+    border-radius: 5px;
+    color: #fff;
+    border: none; 
+    padding: 10px;
+    cursor: pointer;
+}
+.button2booknow {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+  
+  .button2booknow:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+  
+  .button2booknow:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2booknow:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #009087;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2booknow:hover {
+    color: #ffffff;
+    border: 1px solid #009087;
+  }
+  
+  .button2booknow:hover:before {
+    top: -35%;
+    background-color: #009087;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .button2booknow:hover:after {
+    top: -45%;
+    background-color: #009087;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  

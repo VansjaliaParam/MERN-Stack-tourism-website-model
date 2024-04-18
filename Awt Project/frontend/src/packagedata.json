@@ -1,0 +1,43 @@
+[{
+    "title":"Dubai", 
+    "price":5050,
+    "count":1,
+    "url":"/dubai.jpg",
+    "description":"Explore the dynamic charm of Dubai, where futuristic skyscrapers, luxury shopping, and desert adventures await, promising an unforgettable Middle Eastern experience."
+},
+{
+    "title":"Bali",
+    "price":4598,
+    "count":1,
+    "url":"/bali.jpg",
+    "description":"Experience the enchanting allure of Bali, where pristine beaches, vibrant culture, and lush landscapes await to captivate your senses and create unforgettable memories."
+},
+{
+    "title":"Maldives",
+    "price":5238,
+    "count":1,
+    "url":"/maldives.jpg",
+    "description":"Experience paradise in the Maldives: pristine beaches, crystal-clear waters, and luxurious overwater bungalows await, promising an unforgettable tropical escape."
+},
+{
+    "title":"Australia",
+    "price":3099,
+    "count":1,
+    "url":"/australia.jpg",
+    "description":"Experience the wonders of Australia: from breathtaking outback landscapes to stunning beaches and vibrant cities, it's an unforgettable journey awaits."
+},
+{
+    "title":"Switzerland",
+    "price":3569,
+    "count":1,
+    "url":"/switserland.jpg",
+    "description":"Explore the enchanting beauty of Switzerland, where majestic Alps, quaint villages, and serene lakes converge to create an unforgettable European getaway."
+},
+{
+    "title":"Singapore",
+    "price":3299,
+    "count":1,
+    "url":"/singapore.jpg",
+    "description":"Discover the vibrant charm of Singapore: a modern metropolis blending culture, cuisine, and green spaces, promising an unforgettable Southeast Asian adventure."
+}
+]

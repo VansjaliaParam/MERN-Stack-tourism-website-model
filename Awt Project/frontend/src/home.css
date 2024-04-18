@@ -1,0 +1,89 @@
+  Body {
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(./home.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333; 
+}
+
+div.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    margin: 5%;
+    max-width: 300px;
+    height: 460px;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+    align-items: center;
+}
+
+.content {
+    padding: 1.1rem;
+}
+
+.img {
+    height: 40%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.image {
+    height: 40%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.title {
+    color: #333;
+    font-size: 2rem;
+    line-height: 0.5rem;
+    font-weight: 600;
+}
+
+.desc {
+    margin-top: 1.25rem;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.action {
+    display: inline-flex;
+    margin-top: 1.5rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background-color: #2563EB;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.action span {
+    transition: .3s ease;
+}
+
+.action:hover span {
+    transform: translateX(4px);
+}
